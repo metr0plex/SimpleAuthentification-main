@@ -1,0 +1,24 @@
+{
+  "name": "module",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.4",
+    "mongoose-validator": "^2.1.0",
+    "nodemailer": "^6.9.8",
+    "nodemon": "^2.0.20",
+    "router": "^1.3.7"
+  }
+}
